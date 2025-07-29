@@ -32,7 +32,7 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
       </div>
 
-      <div className="relative aspect-[16/9] rounded-xl overflow-hidden mb-8 shadow-lg">
+      <div className="relative aspect-video rounded-xl overflow-hidden mb-8 shadow-lg">
         <Image
           src={post.imageUrl}
           alt={post.title}
