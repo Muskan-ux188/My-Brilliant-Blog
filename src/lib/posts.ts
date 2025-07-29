@@ -7,32 +7,32 @@ import { redirect } from 'next/navigation';
 let posts: Post[] = [
   {
     id: '1',
-    slug: 'journey-into-minimalism',
-    title: 'My Journey into Minimalism',
-    excerpt: 'Discover how embracing minimalism transformed my life, one small step at a time. It\'s not just about having less, but about making room for more of what truly matters.',
-    content: 'The journey began on a rainy Tuesday. Surrounded by clutter, I felt a sense of being overwhelmed. That was the day I decided to change. Minimalism wasn\'t just about decluttering my physical space; it was about decluttering my mind. I started with a single drawer. Then a closet. Soon, my entire home felt lighter, and so did I. This post documents the steps, the challenges, and the profound peace I found in simplicity. It\'s a continuous process, not a destination, but every day feels more intentional than the last.',
-    createdAt: new Date('2023-10-26T10:00:00Z').toISOString(),
-    tags: ['minimalism', 'lifestyle', 'self-improvement'],
+    slug: 'getting-started-with-react-hooks',
+    title: 'Getting Started with React Hooks',
+    excerpt: 'A beginner-friendly guide to understanding and using the most common React Hooks. We\'ll look at useState for managing state and useEffect for handling side effects.',
+    content: 'React Hooks revolutionized how we write components. Before hooks, class components were necessary for state and lifecycle methods. Now, we can do it all in functional components. The `useState` hook allows you to add state to your components. It\'s a function that returns an array with two elements: the current state value and a function to update it. The `useEffect` hook lets you perform side effects in your components, like fetching data or subscribing to an event. It runs after every render by default, but you can control when it runs by passing a dependency array.',
+    createdAt: new Date('2024-05-10T10:00:00Z').toISOString(),
+    tags: ['react', 'javascript', 'frontend', 'web-development'],
     imageUrl: 'https://placehold.co/1200x600.png'
   },
   {
     id: '2',
-    slug: 'the-art-of-baking-sourdough',
-    title: 'The Art of Baking Sourdough',
-    excerpt: 'From starter to loaf, this guide demystifies the process of baking delicious sourdough bread at home. Patience is the key ingredient.',
-    content: 'Baking sourdough is a dance with nature. It starts with a simple mix of flour and water, which, over time, cultivates wild yeast and bacteria. This living culture, your starter, is the heart of your bread. Feeding it, watching it grow, and understanding its rhythms is an art form. This guide will walk you through creating and maintaining a starter, the folding and shaping techniques, and the final magical bake that yields a crusty, tangy, and deeply satisfying loaf. Prepare to fall in love with baking.',
-    createdAt: new Date('2023-11-15T14:30:00Z').toISOString(),
-    tags: ['baking', 'food', 'hobby', 'sourdough'],
+    slug: 'building-modern-web-apps-with-nextjs',
+    title: 'Building Modern Web Apps with Next.js',
+    excerpt: 'Explore the powerful features of Next.js that make it a go-to framework for modern web development, including server-side rendering and file-based routing.',
+    content: 'Next.js is a React framework that gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed. Its file-based routing system is intuitive; you just create files in the `pages` or `app` directory, and Next.js handles the routing. Server Components are a new addition that allow you to write UI that can be rendered and optionally cached on the server, leading to faster page loads and less client-side JavaScript.',
+    createdAt: new Date('2024-06-22T14:30:00Z').toISOString(),
+    tags: ['nextjs', 'react', 'fullstack', 'web-development'],
     imageUrl: 'https://placehold.co/1200x600.png'
   },
   {
     id: '3',
-    slug: 'a-guide-to-urban-gardening',
-    title: 'A Guide to Urban Gardening',
-    excerpt: 'No backyard? No problem. Learn how to grow your own food and create a green oasis in any urban space, from balconies to windowsills.',
-    content: 'City living doesn\'t mean you have to give up on your green thumb. Urban gardening is about making the most of small spaces. Whether you have a tiny balcony, a sunny windowsill, or a small patio, you can grow fresh herbs, vegetables, and beautiful flowers. We\'ll cover container gardening, vertical gardens, soil mixes, watering schedules, and pest control for small-scale urban farms. It\'s a rewarding way to connect with your food and bring a piece of nature into your concrete jungle.',
-    createdAt: new Date('2024-02-05T09:00:00Z').toISOString(),
-    tags: ['gardening', 'urban living', 'sustainability', 'diy'],
+    slug: 'deploying-ai-models-with-genkit',
+    title: 'Deploying AI Models with Genkit',
+    excerpt: 'Learn how to easily build, test, and deploy AI-powered features in your applications using Firebase Genkit. A practical introduction to the future of AI development.',
+    content: 'Firebase Genkit is a powerful, open-source framework designed to simplify the process of building and deploying AI-powered applications. It provides a cohesive set of tools for creating complex AI flows that can call models like Gemini, manage prompts, and even call other services or APIs. With Genkit, you can define flows in TypeScript or Go, test them locally with a built-in UI, and then deploy them to Firebase Cloud Functions or other serverless environments. This makes it incredibly efficient to add sophisticated AI capabilities, like content generation or data analysis, to your apps.',
+    createdAt: new Date('2024-07-18T09:00:00Z').toISOString(),
+    tags: ['ai', 'firebase', 'genkit', 'genai'],
     imageUrl: 'https://placehold.co/1200x600.png'
   }
 ];
