@@ -23,7 +23,7 @@ let posts: Post[] = [
     content: 'Next.js is a React framework that gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed. Its file-based routing system is intuitive; you just create files in the `pages` or `app` directory, and Next.js handles the routing. Server Components are a new addition that allow you to write UI that can be rendered and optionally cached on the server, leading to faster page loads and less client-side JavaScript.',
     createdAt: new Date('2024-07-21T14:30:00Z').toISOString(),
     tags: ['nextjs', 'react', 'fullstack', 'web-development'],
-    imageUrl: 'https://images.unsplash.com/photo-1607703703520-bb238e84498a?q=80&w=1280&h=720&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1643116774075-acc00caa9a7b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: '3',
@@ -33,7 +33,7 @@ let posts: Post[] = [
     content: 'Firebase Genkit is a powerful, open-source framework designed to simplify the process of building and deploying AI-powered applications. It provides a cohesive set of tools for creating complex AI flows that can call models like Gemini, manage prompts, and even call other services or APIs. With Genkit, you can define flows in TypeScript or Go, test them locally with a built-in UI, and then deploy them to Firebase Cloud Functions or other serverless environments. This makes it incredibly efficient to add sophisticated AI capabilities, like content generation or data analysis, to your apps.',
     createdAt: new Date('2024-07-20T09:00:00Z').toISOString(),
     tags: ['ai', 'firebase', 'genkit', 'genai'],
-    imageUrl: 'https://images.unsplash.com/photo-1555949963-ff980877a24f?q=80&w=1280&h=720&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1677756119517-756a1ca2d7a9?q=80&w=1280&h=720&auto=format&fit=crop'
   },
   {
     id: '4',
@@ -43,7 +43,7 @@ let posts: Post[] = [
     content: 'Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build custom designs without writing any custom CSS. Instead of writing CSS rules, you apply pre-existing classes directly in your HTML. This approach promotes consistency, speeds up development, and helps keep your CSS bundle size small. We will cover configuration, responsive design, and best practices for building beautiful interfaces with Tailwind.',
     createdAt: new Date('2024-07-19T11:00:00Z').toISOString(),
     tags: ['css', 'tailwind', 'frontend', 'design'],
-    imageUrl: 'https://images.unsplash.com/photo-1644261386522-f55964c9255a?q=80&w=1280&h=720&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1550684376-7a76dfa125c1?q=80&w=1280&h=720&auto=format&fit=crop'
   },
   {
     id: '5',
@@ -63,7 +63,7 @@ let posts: Post[] = [
     content: 'Next.js 13 introduced a new paradigm with Server and Client Components. Server Components run exclusively on the server, reducing the amount of JavaScript sent to the client and improving initial load times. Client Components are the traditional React components that run in the browser. This guide will walk you through the key differences, benefits, and patterns for using both types of components effectively to build fast, interactive, and dynamic web applications.',
     createdAt: new Date('2024-07-17T10:00:00Z').toISOString(),
     tags: ['nextjs', 'react', 'performance', 'server-components'],
-    imageUrl: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1280&h=720&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1521185496955-15097b20c5fe?q=80&w=1280&h=720&auto=format&fit=crop'
   },
   {
     id: '7',
@@ -73,7 +73,7 @@ let posts: Post[] = [
     content: 'TypeScript adds static typing to JavaScript, which can be a game-changer for large React applications. By catching type errors at build time, you can prevent many common bugs from ever reaching production. This article covers the basics of adding TypeScript to a React project, defining types for props and state, and using generics to create reusable, type-safe components. Start writing more robust and maintainable React code today.',
     createdAt: new Date('2024-07-16T12:45:00Z').toISOString(),
     tags: ['typescript', 'react', 'frontend', 'best-practices'],
-    imageUrl: 'https://images.unsplash.com/photo-1596495577886-d9250559524b?q=80&w=1280&h=720&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1581136451433-024376722a57?q=80&w=1280&h=720&auto=format&fit=crop'
   },
   {
     id: '8',
@@ -83,7 +83,7 @@ let posts: Post[] = [
     content: 'Automating your deployment process is essential for modern web development. A CI/CD pipeline automatically builds, tests, and deploys your application whenever you push new code. This guide provides a step-by-step walkthrough of how to create a simple yet effective pipeline for a Next.js application using GitHub Actions. We will set up workflows to lint, build, and deploy your site to a hosting provider like Vercel or Firebase App Hosting, streamlining your development workflow.',
     createdAt: new Date('2024-07-15T08:30:00Z').toISOString(),
     tags: ['cicd', 'github-actions', 'nextjs', 'devops'],
-    imageUrl: 'https://images.unsplash.com/photo-1580894732444-84cf4bde8408?q=80&w=1280&h=720&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1674257703313-030438b43892?q=80&w=1280&h=720&auto=format&fit=crop'
   }
 ];
 
