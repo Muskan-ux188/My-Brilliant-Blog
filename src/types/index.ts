@@ -1,10 +1,3 @@
-export interface Comment {
-  id: string;
-  author: string;
-  content: string;
-  createdAt: string;
-}
-
 export interface Post {
   id: string;
   slug: string;
@@ -13,6 +6,5 @@ export interface Post {
   excerpt: string;
   createdAt: string;
   tags: string[];
-  comments: Comment[];
   imageUrl: string;
 }

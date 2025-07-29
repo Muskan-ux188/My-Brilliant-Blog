@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
-import { Calendar, MessageSquare } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 import { format } from 'date-fns';
 import type { Post } from '@/types';
 import { Tag } from '@/components/Tag';
@@ -44,10 +44,6 @@ export default function PostCard({ post }: PostCardProps) {
           <div className="flex items-center gap-2">
             <Calendar className="h-4 w-4" />
             <span>{format(new Date(post.createdAt), 'MMM d, yyyy')}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <MessageSquare className="h-4 w-4" />
-            <span>{post.comments.length}</span>
           </div>
         </CardFooter>
       </Card>

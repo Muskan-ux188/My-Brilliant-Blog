@@ -4,8 +4,6 @@ import Image from 'next/image';
 import { Calendar, Tag as TagIcon } from 'lucide-react';
 import { format } from 'date-fns';
 import { Tag } from '@/components/Tag';
-import CommentSection from '@/components/CommentSection';
-import { Separator } from '@/components/ui/separator';
 
 interface PostPageProps {
   params: {
@@ -63,10 +61,6 @@ export default async function PostPage({ params }: PostPageProps) {
           </div>
         </div>
       )}
-      
-      <Separator className="my-12" />
-      
-      <CommentSection postId={post.id} slug={post.slug} initialComments={post.comments} />
     </article>
   );
 }
